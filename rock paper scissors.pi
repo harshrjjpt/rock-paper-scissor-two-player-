@@ -1,0 +1,27 @@
+print("welcome to rock, paper and scissors game")
+print("player 1:")
+#player 1 choice
+p1=input()
+print("***NO CHEATING*** \n" *30)
+print("player 2:")
+p2=input()
+
+
+
+scissors = "scissor"
+if p1 == "rock" and p2 == "scissors":
+    print("player 1 wins!!!")
+elif p1 == "scissors" and p2 == "rock":
+    print("player 2 wins!!!")
+elif p1 == "paper" and p2 == "rock":
+    print("player 1 wins !!!")
+elif p1 == "rock" and p2 == "paper":
+    print("player 2 wins !!!")
+elif p1 == "paper" and p2 == "scissors":
+    print("player 2 wins !!!")
+elif  p1 == "scissors" and p2 == "paper":
+    print("player 1 wins!!!")         
+elif p1 == p2:
+    print("its a tie, hahaha")
+else:
+    print("please enter 'rock,paper or scissors correctly")
